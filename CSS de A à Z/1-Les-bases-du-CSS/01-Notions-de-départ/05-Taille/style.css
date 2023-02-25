@@ -1,0 +1,40 @@
+/* Un pixel est un petit carré de votre écran renvoyant de la lumière. */
+/* Ses dimensions sont propres à la qualité et la densité de chaque écran. */
+
+body {
+  background: #333;
+}
+/* 
+  Un élément bloc prend l'entièreté de la largeur de son parent.
+  Sa valeur est "auto".
+*/
+.box {
+  background-color: salmon;
+}
+
+
+.container {
+  width: 400px;
+  height: 400px;
+  background: royalblue;
+}
+
+.child {
+  height: 50px;
+  background: green;
+}
+
+p {
+  color: #f1f1f1;
+  font-size: 24px;
+
+  /* min-content = Largeur du contenu le plus grand (ici du mot le plus grand) */
+
+
+  /* max-content = Longueur totale du contenu sans interuption. Ici la longueur totale de tous les mots. */
+
+
+  
+  /* fit-content = Utilise max-content si ça ne dépasse pas, sinon la largeur disponible, et au minimum min-content. */
+
+}

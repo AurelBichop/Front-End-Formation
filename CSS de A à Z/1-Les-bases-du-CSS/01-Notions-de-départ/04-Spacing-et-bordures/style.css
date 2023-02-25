@@ -1,0 +1,15 @@
+p {
+  font-size: 45px;
+}
+
+
+
+span {
+  background: green;
+  font-size: 50px;
+  
+  /* Le padding top et bottom des éléments inline ne poussent pas les autres éléments inline ou block. */
+
+
+  /* Margin top et bottom ne fonctionne pas avec les éléments inline */
+}
