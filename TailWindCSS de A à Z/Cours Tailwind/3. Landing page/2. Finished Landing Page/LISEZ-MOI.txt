@@ -1,0 +1,6 @@
+Le gros dossier node_modules est supprimé lorsqu'on partage des dossiers qui utilisent npm.
+
+Si vous voulez utiliser les commandes dans le dossier de la landing page avec le code source terminé,
+déplacez-vous dans le dossier avec votre terminal puis effectuez "npm install", cela va installer les dépendances du package.json
+À partir de là vous pouvez executer les scripts "npm run dev" etc ...
+On ne partage pas le node_modules afin d'éviter de partager des dossiers lourds pour rien.
