@@ -34,7 +34,7 @@
       <!-- Flex Wrap : [flex-(wrap|wrap-reverse|nowrap)] -->
       <!-- Align Content : [content-(start|end|center|between|around|evenly)] -->
 
-      <div class=" bg-gray-200 h-[350px]">
+      <div class="flex justify-between bg-gray-200 h-[350px] items-center flex-col">
         <div class="w-20 h-20 bg-green-400 m-4"></div>
         <div class="w-20 h-20 bg-green-400 m-4"></div>
         <div class="w-20 h-20 bg-green-400 m-4"></div>
@@ -49,9 +49,9 @@
         <!-- Align-self : [self-(start|end|center|stretch)] -->
   
         <div class="flex h-32 bg-gray-200">
-          <div class=" w-20 h-20 bg-green-400 m-4"></div>
-          <div class=" w-20 h-20 bg-black m-4"></div>
-          <div class=" w-20 h-20 bg-blue-900 m-4"></div>
+          <div class="flex-grow w-20 h-20 bg-green-400 m-4 order-2"></div>
+          <div class="flex-grow w-20 h-20 bg-black m-4 order-3"></div>
+          <div class="flex-grow w-20 h-20 bg-blue-900 m-4 order-1"></div>
         </div>
 
     </div>
