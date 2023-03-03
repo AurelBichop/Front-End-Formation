@@ -7,7 +7,7 @@
   <title>Responsive</title>
   <!-- Mettre en commentaire après installation -->
   <!-- <script src="https://cdn.tailwindcss.com"></script>  -->
-  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="dist/main.css">
 
 </head>
 <body class="bg-gray-800 text-white">
@@ -38,14 +38,14 @@
       <!-- sm: veut dire supérieur à sm(640px) -->
 
 
-      <p class="">Je change de taille en fonction de l'écran.</p>
+      <p class="text-sm sm:text-mb lg:text-xl xl:text-4xl">Je change de taille en fonction de l'écran.</p>
 
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Faire disparaître un élément</h2>
 
-      <div class="hidden bg-red-600 w-40 h-40"></div>
+      <div class="hidden bg-red-600 w-40 h-40 sm:block"></div>
 
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Flexbox rangée / colonne</h2>
-      <div class="flex">
+      <div class="flex flex-col sm:flex-row">
         <div class="w-16 h-16 bg-green-400 m-2"></div>
         <div class="w-16 h-16 bg-green-400 m-2"></div>
         <div class="w-16 h-16 bg-green-400 m-2"></div>
@@ -54,7 +54,7 @@
       
       <h2 class="text-4xl text-gray-50 pt-10 pb-5">Padding / Margin</h2>
 
-      <h1 class="p-6 bg-blue-200 text-gray-800 text-xl  md:p-12 md:text-4xl">Comment prendre soin de votre appareil photo ?</h1>
+      <h1 class="p-6 md:p-12 bg-blue-200 text-gray-800 text-xl md:text-4xl">Comment prendre soin de votre appareil photo ?</h1>
 
     </div>
 </body>
