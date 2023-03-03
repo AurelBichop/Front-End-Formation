@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    html{
+        font-family: Smokum;
+    }
+}
+/* 
+Personnalisation de base
+
+.title{
+    font-size: 40px;
+    background: #333;
+    padding: 10px;
+}
+
+Rajouter des classes à une couche
+@layer base{
+    h1{
+        color: red!important;
+        @apply text-4xl  
+    }
+}
+@layer utilities{
+    .custom-class{
+        background: green;
+    }
+}
+@layer components{
+    .btn{
+        padding: 10px;
+        min-width: 200px;
+        background: salmon;
+
+        @apply p-10 text-zinc-800;
+
+        background-color: theme('colors.red.500');
+    }
+} 
+*/
